@@ -1,7 +1,7 @@
 function check() {
   const posts = document.getElementsByClassName("post");
   postsA = Array.from(posts);
-  
+
   postsA.forEach(function (post) {
     if (post.getAttribute("data-load") != null) {
       return null;
